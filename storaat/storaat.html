@@ -1,0 +1,344 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rush | sipakdee and storaat team</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen bg-[#071235]">
+    <nav
+      class="sticky top-0 z-50 mx-auto w-full rounded border-gray-200 bg-white py-4 px-20 dark:bg-gray-800"
+    >
+      <div
+        class="container mx-auto flex flex-wrap items-center justify-center lg:justify-between lg:px-24"
+      >
+        <a href="/" class="flex items-center">
+          <img
+            class="w-16 cursor-pointer object-contain"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/1200px-42_Logo.svg.png"
+            alt="icon"
+          />
+          <span
+            class="ml-6 self-center whitespace-nowrap text-xl font-semibold dark:text-white"
+          >
+            | STORAAT
+          </span>
+        </a>
+
+        <div class="mt-2 items-center space-x-5 md:inline-flex lg:mt-0">
+          <h3 class="ml-4 rounded-full bg-cyan-500 px-4 py-1 text-white">
+            <a href="#top">Home</a>
+          </h3>
+          <h3 class="rounded-full bg-cyan-500 px-4 py-1 text-white">
+            <a href="#education">Education</a>
+          </h3>
+          
+          <h3 class="rounded-full bg-cyan-500 px-4 py-1 text-white">
+            <a href="#contact">Contact Us</a>
+          </h3>
+        </div>
+      </div>
+    </nav>
+
+    <div class="flex flex-col">
+      <div id="top"
+        class="bg-[url('/images/storaat/bg1.png')] bg-cover bg-center background-repeat: no-repeat; w-full h-screen md:h-screen flex flex-col items-center justify-center text-7xl md:text-5xl text-center font-[nunito] font-black text-white leading-none gap-5"
+      >
+        Welcome to <span class="text-[#5380EA]">STORAAT’s Portfolio !</span>
+        <span class="text-base px-16 text-[#475569;]">
+          Welcome to my portfolio!, and I'm excited to share my work experiences
+          with you, so you can get to know me better.
+        </span>
+
+        <a class="hover:opacity-75" href="#education">
+        <button
+          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded text-sm"
+        >
+          get started
+        </button>
+      </a>
+      </div>
+
+      <div id="education"
+        class="w-full h-screen bg-[#0F172A] flex flex-col items-center justify-center gap-6 px-48 md:px-10 md:gap-4"
+      >
+        <div class="text-[#5380EA] font-[nunito] font-bold text-xl">
+          Personal Insight
+        </div>
+        <div class="text-[#FFA700] font-[nunito] font-black text-5xl">
+          Educational Background
+        </div>
+        <div class="text-[#828282] text-center px-32  text-xl md:text-base">
+          Hello, I'm Saruta Torat, but you can call me Bamboo. I'm 19 years old
+          and currently a second-year student majoring in Information Technology
+          at King Mongkut's Institute of Technology Ladkrabang. As an
+          enthusiastic learner in the field of technology, I am passionate about
+          exploring new ideas and embracing the ever-evolving world of
+          information technology.
+        </div>
+        <div
+          class="flex flex-row gap-44 md:gap-0 text-sm items-center justify-center font-[nunito]"
+        >
+          <div class="text-[#828282] md:w-1/2 lg:text-base md:text-xs md:text-center lg:text-start">
+            My educational journey has been diverse and enriching. I completed
+            my primary education at Sookjaicharoenphol School, where I laid the
+            foundation for my academic pursuits. Transitioning to secondary
+            education, I continued my studies at Ratchawinit Bangkaew School,
+            broadening my knowledge and embracing new challenges. As I entered
+            high school, I chose to specialize in the arts and mathematics at
+            [Name of your high school]. This decision allowed me to delve deeper
+            into subjects I am passionate about, fostering a well-rounded
+            education that combines both artistic expression and analytical
+            thinking. Each stage of my academic path has contributed to shaping
+            my interests and skills. I look forward to the continued exploration
+            of knowledge and growth in my chosen fields of study.
+          </div>
+          <div class="flex items-center justify-center md:w-fit">
+            <img class="lg:w-2/3 md:w-1/2" src="/images/storaat/edu.png" />
+          </div>
+        </div>
+        <div class="flex items-center justify-center lg:gap-52 md:gap-16 pt-7 md:gap-auto">
+          <div
+            class="flex flex-col text-[#828282] items-center justify-center gap-4 text-center"
+          >
+            <img class="w-28 h-28" src="/images/storaat/school1.webp" />
+            Sukcharoenphon phraekkasa school
+          </div>
+          <div
+            class="flex flex-col text-[#828282] items-center justify-center gap-4 text-center"
+          >
+            <img class="w-20 h-28" src="/images/storaat/school2.png" />
+            Ratchawinit Bangkaeo School
+          </div>
+          <div
+            class="flex flex-col text-[#828282] items-center justify-center gap-4 text-center"
+          >
+            <img class="w-32 h-32" src="/images/storaat/school3.png" />
+            King Mongkut's Institute of Technology Ladkrabang
+          </div>
+        </div>
+      </div>
+      <div id="contact"
+        class="w-full h-screen bg-black flex flex-col items-center justify-center"
+      >
+        <div class="flex text-sm items-center justify-center font-[nunito] md:gap-10">
+          <div class="text-[#828282] w-1/3 flex flex-col font-black lg:text-5xl md:text-2xl">
+            <span class="text-[#5380EA] lg:text-2xl md:text-lg">Contact Me</span>
+            Have any questions or additional inquiries? I'm ready to listen and
+            offer guidance.
+          </div>
+          <div class="grid grid-cols-2 gap-10">
+            <a href="tel:+66618245909">
+            <div
+              class="lg:w-64 lg:h-64 md:w-44 md:h-44 rounded-lg border-t-10 border-blue-500 bg-white shadow-md flex felx-col items-center justify-center"
+            >
+              <div class="flex flex-col items-center justify-center lg:p-10 md:p-3 gap-6 ">
+                <img src="/images/storaat/ph.png" class="w-24 h-24" />
+                <span class="lg:text-xl md:text-base font-bold"> +66-61-824-5909 </span>
+              </div>
+            </div></a>
+
+            <a href="https://www.facebook.com/saruta.torat.7/">
+              <div
+                class="lg:w-64 lg:h-64 md:w-44 md:h-44 rounded-lg border-t-10 border-blue-500 bg-white shadow-m flex felx-col items-center justify-center"
+              >
+                <div
+                  class="flex flex-col items-center justify-center p-10 gap-6"
+                >
+                  <img src="/images/storaat/fb.png" class="w-24 h-24" />
+                  <span class="lg:text-xl md:text-base font-bold"> Saruta Torat </span>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://www.instagram.com/8amboo/">
+              <div
+                class="lg:w-64 lg:h-64 md:w-44 md:h-44 rounded-lg border-t-10 border-blue-500 bg-white shadow-md flex felx-col items-center justify-center"
+              >
+                <div
+                  class="flex flex-col items-center justify-center p-10 gap-6"
+                >
+                  <img src="/images/storaat/ig.png" class="w-24 h-24" />
+                  <span class="text-xl font-bold"> 8amboo </span>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://github.com/SarutaBamboo">
+              <div
+                class="lg:w-64 lg:h-64 md:w-44 md:h-44 rounded-lg border-t-10 border-blue-500 bg-white shadow-md flex felx-col items-center justify-center"
+              >
+                <div
+                  class="flex flex-col items-center justify-center p-10 gap-6"
+                >
+                  <img src="/images/storaat/gh.png" class="w-24 h-24" />
+                  <span class="text-xl font-bold"> SarutaBamboo </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full h-auto my-8 bg-[url('/images/storaat/bg2.png')] bg-cover bg-center px-48 md:px-10 flex flex-col items-center justify-center font-[nunito] text-white gap-8"
+      >
+        <span class="text-[#5380EA] text-2xl">Acivity</span>
+        <span class="text-5xl font-black">University Activities </span>
+        <span class="text-center text-2xl md:text-lg"
+          >University activities provide opportunities for personal growth by
+          challenging students to step out of their comfort zones, take on
+          leadership roles, and develop essential life skills such as
+          communication, teamwork, and time management.</span
+        >
+        <div class="flex flex-row gap-x-16 md:gap-x-6">
+          <div
+            class="w-80 h-96 md:w-56 md:h-64 rounded-md bg-white shadow-md flex flex-col items-center justify-center p-6 text-[#0F172A] gap-8 text-center font-bold text-2xl"
+          >
+            <img class="rounded-full" src="/images/storaat/pic1.jpeg" />
+            <span class="text-2sxl font-strong">
+              Student Club - IT Faculty (Year 67)
+            </span>
+          </div>
+          <div
+            class="w-80 h-96 md:w-56 md:h-64 rounded-md bg-white shadow-md flex flex-col items-center justify-center p-6 text-[#0F172A] gap-8 text-center font-bold text-2xl"
+          >
+            <img class="rounded-full" src="/images/storaat/pic2.jpeg" />
+            <span class="text-2sxl font-strong"> IT Katakorn 2022 </span>
+          </div>
+          <div
+            class="w-80 h-96 md:w-56 md:h-64 rounded-md bg-white shadow-md flex flex-col items-center justify-center p-6 text-[#0F172A] gap-8 text-center font-bold text-2xl"
+          >
+            <img class="rounded-full" src="/images/storaat/pic5.jpg" />
+            <span class="text-2sxl font-strong">
+              Seminar - SmoIT Faculty (Year 66)
+            </span>
+          </div>
+        </div>
+        <div class="flex flex-row gap-16 md:gap-6 pt-8">
+          <div
+            class="w-80 h-96 md:w-56 md:h-64 rounded-md bg-white shadow-md flex flex-col items-center justify-center p-6 text-[#0F172A] gap-8 text-center font-bold text-2xl"
+          >
+            <img class="rounded-full" src="/images/storaat/pic8.jpg" />
+            <span class="text-2sxl font-strong"> IT Ambassador 2022 </span>
+          </div>
+          <div
+            class="w-80 h-96 md:w-56 md:h-64 rounded-md bg-white shadow-md flex flex-col items-center justify-center p-6 text-[#0F172A] gap-2 text-center font-bold text-2xl"
+          >
+            <img
+              class="rounded-full w-48 h-48"
+              src="/images/storaat/pic7.jpg"
+            />MELIT 2022 </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w-full px-16">
+      <div class="px-16 px-4 py-16 sm:px-6 xl:px-8">
+        <div class="flex flex-row justify-between gap-8 xl:grid-cols-2">
+          <div>
+            <h1
+              class="bg-gradient-to-r from-blue-500 via-cyan-500 to-yellow-500 bg-clip-text text-3xl font-extrabold text-transparent md:text-3xl"
+            >
+              sipakdee & stoorat team
+            </h1>
+            <p class="mt-4 max-w-xs text-sm text-gray-600">
+              42Bangkok - Central Library, King Mongkut's Institite of
+              Technology Ladkrabang. (KMITL)
+            </p>
+            <p class="mt-4 max-w-xs text-sm text-gray-600">
+              1 Chalong Krung 1 Alley, Lat Krabang, Bangkok 10520 Thailand
+            </p>
+            <div class="mt-8 flex space-x-6 text-gray-600">
+              <a
+                class="hover:opacity-75"
+                href="https://web.facebook.com/saruta.torat.7/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="sr-only"> Facebook </span>
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
+              <a
+                class="hover:opacity-75"
+                href="https://www.instagram.com/8amboo
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="sr-only"> Instagram </span>
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
+          
+              <a
+                class="hover:opacity-75"
+                href="https://github.com/SarutaBamboo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="sr-only"> GitHub </span>
+                <svg
+                  class="h-6 w-6"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex flex-col text-right">
+              <p class="font-medium">Let's explore more information</p>
+              <nav class="mt-4 flex flex-col space-y-2 text-sm text-gray-500">
+                <a class="hover:opacity-75" href="#top">Infos</a>
+                <a class="hover:opacity-75" href="#education"
+                  >Educations</a
+                >
+                <a class="hover:opacity-75" href="#contact">Contact Me</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <p class="mt-8 text-xs text-gray-800">
+          © 2023 42Bangkok - sipakdee & stoorat team
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
